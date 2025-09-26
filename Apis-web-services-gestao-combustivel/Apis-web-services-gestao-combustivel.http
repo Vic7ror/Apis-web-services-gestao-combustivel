@@ -1,0 +1,6 @@
+@Apis_web_services_gestao_combustivel_HostAddress = http://localhost:5219
+
+GET {{Apis_web_services_gestao_combustivel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
