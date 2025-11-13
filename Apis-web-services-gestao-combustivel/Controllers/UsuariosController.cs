@@ -30,6 +30,7 @@ namespace Apis_web_services_gestao_combustivel.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Create(Usuario model)
         {
             model.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
@@ -83,8 +84,8 @@ namespace Apis_web_services_gestao_combustivel.Controllers
             return NoContent();
         }
 
-        [AllowAnonymous]
         [HttpPost("authenticate")]
+        [AllowAnonymous]
         public async Task<IActionResult> Authenticate(AuthenticateDto model)
         {
             var usuarioDb = await _context.Usuarios.FindAsync(model.Id);

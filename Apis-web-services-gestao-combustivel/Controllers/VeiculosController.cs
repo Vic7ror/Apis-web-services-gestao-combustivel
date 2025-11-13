@@ -18,7 +18,7 @@ namespace Apis_web_services_gestao_combustivel.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "Usuario")]
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -72,6 +72,7 @@ namespace Apis_web_services_gestao_combustivel.Controllers
             return NoContent();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
 
         public async Task<IActionResult> Delete(int id)
