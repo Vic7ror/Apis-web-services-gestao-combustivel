@@ -27,8 +27,38 @@ Métodos usados em todas as rotas: Get,Post,Put e Delete.
 
 ## Usuários
 1. Get/All
-   - ![postmanTestes](/PrintsGifs/Postman/GetAll.png)
-3. Get/ById
-4. Post/Create
-5. Update/Put
+   - ![postmanTestes](/PrintsGifs/Postman/RotaUsuarios/GetAll.png)
+2. Get/ById
+   - ![postmanTestes](/PrintsGifs/Postman/RotaUsuarios/GetById.png)
+3. Post/Create
+   - ![postmanTestes](/PrintsGifs/Postman/RotaUsuarios/Post.png)
+4. Login/Authenticação
+   - ![postmanTestes](/PrintsGifs/Postman/RotaUsuarios/Authenticate.png)
+5. Put/Update
+   - ![postmanTestes](/PrintsGifs/Postman/RotaUsuarios/Put.png)
 6. Delete
+    - ![postmanTestes](/PrintsGifs/Postman/RotaUsuarios/Delete.png)
+
+## Veículos
+1. Get/All
+   - ![postmanTestes](/PrintsGifs/Postman/RotaVeiculos/GetAll.png)
+2. Get/ById
+   - ![postmanTestes](/PrintsGifs/Postman/RotaVeiculos/GetById.png)
+3. Post/Create
+   - ![postmanTestes](/PrintsGifs/Postman/RotaVeiculos/Post.png)
+4. Put/Update
+   - ![postmanTestes](/PrintsGifs/Postman/RotaVeiculos/Put.png)
+5. Delete
+    - ![postmanTestes](/PrintsGifs/Postman/RotaVeiculos/Delete.png)
+
+## Consumos
+1. Get/All
+   - ![postmanTestes](/PrintsGifs/Postman/RotaConsumos/GetAll.png)
+2. Get/ById
+   - ![postmanTestes](/PrintsGifs/Postman/RotaConsumos/GetById.png)
+3. Post/Create
+   - ![postmanTestes](/PrintsGifs/Postman/RotaConsumos/Post.png)
+4. Put/Update
+   - ![postmanTestes](/PrintsGifs/Postman/RotaConsumos/Put.png)
+5. Delete
+    - ![postmanTestes](/PrintsGifs/Postman/RotaConsumos/Delete.png)
