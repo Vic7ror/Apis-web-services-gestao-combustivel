@@ -11,7 +11,7 @@ Api de controle de consumo de combustível de veículos e seus usuários, possui
 
 --------------------------------------------
 
-# Swagger rotas:
+# Swagger:
 
 1. Rota Usuários
 ![swaggerRotas](/PrintsGifs/Swagger/rotaUsuarios.png)
