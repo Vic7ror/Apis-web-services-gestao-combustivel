@@ -4,10 +4,9 @@ Api de controle de consumo de combustível de veículos e seus usuários, possui
 
 --------------------------------------------
 
-- Aplicativos usados: Visual Studio
-- Swagger para documentação
-- Postman para testes
-- Lenguage C#, ASP_NET
+- Aplicativos usados: Visual Studio, Swagger, Postman
+- Lenguage C#
+- Frameworks: ASP_NET
 
 --------------------------------------------
 
